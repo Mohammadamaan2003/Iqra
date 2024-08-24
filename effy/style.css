@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+
+/* header  */
+header {
+    background-color: black;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+}
+
+
+header h5 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    height: 130px;
+}
+
+.navbar #check {
+    display: none;
+}
+
+.navbar label {
+    position: absolute;
+    right: 30px;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .navbar .right{
+        position: fixed;
+        top: 163px;
+        right: -100%;
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .navbar .right ul li{
+        display: block;
+        background-color: rgb(63, 122, 174);
+        padding: 10px 70px;
+    }
+
+    .navbar .right li a{
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar .right li:hover{
+        background-color: rgb(110, 149, 182);
+        text-decoration: none;
+        /* cursor: pointer; */
+    }
+
+    .fa{
+        display: block;
+    }
+
+    #check:checked ~ .right{
+        right: 0;
+    }
+
+}
+
+@media only screen and (min-width: 851px) {
+    .navbar label {
+        display: none;
+    }
+
+    .navbar .right ul{
+        /* position: absolute; */
+        /* right: -100%; */
+    }
+
+}
+
+
+.navbar img {
+    height: 100px;
+    margin: 10px 20px;
+}
+
+.navbar .right li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.navbar .right li a{
+    color: black;
+    text-decoration: none;
+}

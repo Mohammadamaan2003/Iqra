@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-page {
+    background-color: #148f66c1;
+    height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.blog-logo {
+    width: 100px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blogkiimage {
+    width: 90vw;
+    background-color: aliceblue;
+    height: 75vh;
+    position: relative;
+    z-index: 1;
+}
+
+.textcontainer {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    width: 70vw;
+    position: absolute;
+    z-index: 10;
+    bottom: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.textcontainer h3,
+p {
+    padding: 10px;
+}
+
+.textcontainer button {
+    background-color: #148f66c1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+/* SECOND PAGE  blog post*/
+
+.second-page {
+    height: 100vh;
+
+}
+
+.second-page .main {
+    margin: 10px auto;
+    background-color: #ade6ce;
+    width: 80vw;
+    display: grid;
+    height: 100%;
+}
+
+.second-page .main h2{
+    margin: auto;
+    padding: 20px 0;
+}
+
+.second-page .main .blog-one img, .blog-two img, .blog-three img{
+    width: 300px;
+    float: left;
+}
+
+
+
+.second-page .main button{
+    background-color: rgb(10, 86, 61);
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.second-page .main button:hover{
+    border-radius: 10px;
+    background-color: rgb(70, 228, 202);
+    color: black;
+}
+
+
+
+/* THird page */
+
+.pagethree {
+    height: 90vh;
+    background-color: rgb(70, 154, 228);
+    margin: 10px auto;
+    width: 70vw;
+}
+
+.pagethree .heading{
+    padding: 20px;
+}
+
+.pagethree h3{
+    font-size: 40px;
+    color: #fff;
+}
+
+.pagethree img, .pagethree h3, .pagethree p {
+    display: grid;
+    justify-content: center;
+}
+
+.pagethree img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.pagethree p{
+    align-items: center;
+    padding: 20px 105px;
+}
+
+
+/* Contact page */
+
+.contact{
+    height: 80vh;
+    background-color: bisque;
+    width: 70vw;
+    margin: auto;
+}
+
+.contact h3{
+    font-size: 30px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact label, input{
+    display: block;
+    margin: 7px;
+}
+
+.contact label{
+    margin-left: 50px;
+}
+
+.contact input{
+    width: 90%;
+    padding: 7px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.contact button{
+    /* padding: 10px; */
+    margin: 10px auto;
+    width: 90%;
+    font-size: large;justify-content: center;
+    display: flex;
+}
+
+.contact a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+/* footer */
+
+.footer{
+    background-color: gray;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

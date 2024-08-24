@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+
+
+
+
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 100;
+
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar span a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.navbar span {
+    display: flex;
+    align-items: center;
+}
+
+.navbar input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(223, 233, 243);
+    font-size: medium;
+}
+
+
+/* Second*/
+
+.second {
+    width: 97vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.second span {
+    width: 70px;
+}
+
+.second span img {
+    height: 64px;
+    width: 64px;
+    padding: 10px 0;
+}
+
+.second span a {
+    padding: 10px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* third */
+
+.third-animation {
+    width: 97%;
+    margin: 10px auto;
+    height: 200px;
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/e110e738e7633b22.jpg?q=20);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: animate 3s infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/e110e738e7633b22.jpg?q=20);
+    }
+
+    25% {
+        background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/d9290fb51138d286.png?q=20);
+    }
+
+    50% {
+        background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/61775218f4487fe8.jpg?q=20);
+    }
+
+    75% {
+        background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/9384b37a848c5e60.jpg?q=20);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* forth */
+
+.forth {
+    background-color: white;
+    width: 97vw;
+    margin: 10px auto;
+}
+
+.images {
+    width: 85%;
+    display: flex;
+
+}
+
+.forth h3 {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.forth .images .picture {
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    width: 190px;
+}
+
+.images .picture img {
+    height: 180px;
+    padding: 10px 0;
+    margin: 10px 30px;
+
+}
+
+.forth .images,
+.six {
+    display: flex;
+    align-items: center;
+}
+
+.forth .six img {
+    height: 280px;
+}
+
+.forth p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 100;
+}
+
+.forth h4 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fifth */    
+/* seventh bhi yhi hai */
+
+.fifth {
+    background-color: white;
+    width: 97vw;
+    margin: 10px auto;
+}
+
+.fifth h3 {
+    padding: 20px;
+}
+
+.fifthkimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.batman img {
+    width: 80%;
+    object-fit: contain;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.batman {
+    border: 1px solid #80808070;
+    padding: 10px 0;
+    margin: 10px;
+    width: 190px;
+}
+
+.fifthkimg p,
+.fifthkimg h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+/* .fifthkimg .batman img, p, h4{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sixth */
+
+.sixth {
+    margin: 20px;
+    position: relative;
+}
+
+.sixth h3 {
+    background-color: white;
+    padding: 20px;
+    width: 35%;
+}
+
+.pura-container {
+    background-color: white;
+}
+
+.explorecontainer {
+    height: 600px;
+    display: flex;
+}
+
+
+.pura-container h4 {
+    color: #108934;
+}
+
+.do-section {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tshirts,
+.slippers,
+.wallets,
+.beds {
+    border: 1px solid rgb(206, 206, 206);
+    width: 200px;
+    margin: 20px 18px;
+}
+
+.do-section img {
+    height: 200px;
+    width: 90%;
+    object-fit: contain;
+}
+
+.exploreflights img {
+    position: absolute;
+    top: 0;
+    height: 660px;
+    width: 61.5%;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* seventh fifth ki ek hi classes hai  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* eight */
+
+.eight{
+    background-color: rgb(206, 206, 206);
+    height: 90vh;
+    width: 97vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sections h3{
+    padding: 20px 40px 30px;
+}
+
+.sections{
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    width: 33%;
+}
+
+.sections h4{
+    color: #108934;
+}
+
+.sections span{
+    border: 1px solid rgb(206, 206, 206);
+    /* position: absolute; */
+    box-shadow: 0.6px;
+    /* height: 150px;
+    width: 120px; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sections .first{
+    /* position:static; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.sections span img{
+    height: 150px;
+    object-fit: contain;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.sections .sections-second{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* .sections>span:nth-child(1){
+    top: 20px;
+    right: 20px;
+}
+
+.sections>span:nth-child(2){
+    right: 20px;
+}
+
+.sections>span:nth-child(3){
+    bottom: 50px;
+    left: 20px;
+}
+
+.sections>span:nth-child(4){
+    bottom: 50px;
+    right: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.footer h6 {
+    font-size: 12px;
+    font-weight: 100;
+    color: gray;
+}
+
+.footer {
+    background-color: rgb(42, 40, 40);
+    height: 300px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 40px 60px 0;
+    column-gap: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.about,
+.group-companies,
+.help,
+.consumer-policy,
+.mail-us,
+.registered {
+    /* padding: 20px; */
+    text-transform: uppercase;
+}
+
+.footer p {
+    font-size: 12px;
+    color: white;
+}
+
+.last {
+    background-color: rgb(42, 40, 40);
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.last a {
+    text-decoration: none;
+}
+
+.last a,
+.last span {
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.last div {
+    display: flex;
+    align-items: center;
+
+}
